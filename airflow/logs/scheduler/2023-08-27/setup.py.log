@@ -1,0 +1,260 @@
+[2023-08-27T00:38:27.017+0000] {processor.py:157} INFO - Started process (PID=82040) to work on /opt/airflow/dags/setup.py
+[2023-08-27T00:38:27.018+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T00:38:27.019+0000] {logging_mixin.py:149} INFO - [2023-08-27T00:38:27.019+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T00:38:31.513+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T00:38:31.517+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T00:38:31.519+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T00:38:31.542+0000] {logging_mixin.py:149} INFO - [2023-08-27T00:38:31.541+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T00:38:31.557+0000] {logging_mixin.py:149} INFO - [2023-08-27T00:38:31.557+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T00:38:31.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.556 seconds
+[2023-08-27T02:09:31.067+0000] {processor.py:157} INFO - Started process (PID=82106) to work on /opt/airflow/dags/setup.py
+[2023-08-27T02:09:31.069+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T02:09:31.073+0000] {logging_mixin.py:149} INFO - [2023-08-27T02:09:31.073+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T02:09:35.771+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T02:09:35.776+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T02:09:35.778+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T02:09:35.800+0000] {logging_mixin.py:149} INFO - [2023-08-27T02:09:35.800+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T02:09:35.816+0000] {logging_mixin.py:149} INFO - [2023-08-27T02:09:35.815+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T02:09:35.826+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.765 seconds
+[2023-08-27T04:15:50.856+0000] {processor.py:157} INFO - Started process (PID=82173) to work on /opt/airflow/dags/setup.py
+[2023-08-27T04:15:50.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T04:15:50.862+0000] {logging_mixin.py:149} INFO - [2023-08-27T04:15:50.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T04:15:55.277+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T04:15:55.281+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T04:15:55.283+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T04:15:55.305+0000] {logging_mixin.py:149} INFO - [2023-08-27T04:15:55.305+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T04:15:55.323+0000] {logging_mixin.py:149} INFO - [2023-08-27T04:15:55.323+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T04:15:55.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.496 seconds
+[2023-08-27T05:17:51.571+0000] {processor.py:157} INFO - Started process (PID=82239) to work on /opt/airflow/dags/setup.py
+[2023-08-27T05:17:51.572+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T05:17:51.573+0000] {logging_mixin.py:149} INFO - [2023-08-27T05:17:51.573+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T05:17:56.029+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T05:17:56.033+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T05:17:56.035+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T05:17:56.055+0000] {logging_mixin.py:149} INFO - [2023-08-27T05:17:56.055+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T05:17:56.071+0000] {logging_mixin.py:149} INFO - [2023-08-27T05:17:56.071+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T05:17:56.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.515 seconds
+[2023-08-27T06:52:15.251+0000] {processor.py:157} INFO - Started process (PID=82306) to work on /opt/airflow/dags/setup.py
+[2023-08-27T06:52:15.252+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T06:52:15.252+0000] {logging_mixin.py:149} INFO - [2023-08-27T06:52:15.252+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T06:52:19.250+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T06:52:19.254+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T06:52:19.257+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T06:52:19.279+0000] {logging_mixin.py:149} INFO - [2023-08-27T06:52:19.279+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T06:52:19.296+0000] {logging_mixin.py:149} INFO - [2023-08-27T06:52:19.296+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T06:52:19.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.060 seconds
+[2023-08-27T11:05:20.263+0000] {processor.py:157} INFO - Started process (PID=82372) to work on /opt/airflow/dags/setup.py
+[2023-08-27T11:05:20.267+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T11:05:20.267+0000] {logging_mixin.py:149} INFO - [2023-08-27T11:05:20.267+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T11:05:24.237+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T11:05:24.246+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T11:05:24.249+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T11:05:24.309+0000] {logging_mixin.py:149} INFO - [2023-08-27T11:05:24.309+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T11:05:24.338+0000] {logging_mixin.py:149} INFO - [2023-08-27T11:05:24.338+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T11:05:24.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.092 seconds
+[2023-08-27T13:53:16.824+0000] {processor.py:157} INFO - Started process (PID=82438) to work on /opt/airflow/dags/setup.py
+[2023-08-27T13:53:16.827+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T13:53:16.828+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:53:16.828+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T13:53:20.624+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T13:53:20.628+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T13:53:20.630+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T13:53:20.655+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:53:20.655+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T13:53:20.670+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:53:20.670+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T13:53:20.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.860 seconds
+[2023-08-27T13:56:29.739+0000] {processor.py:157} INFO - Started process (PID=82504) to work on /opt/airflow/dags/setup.py
+[2023-08-27T13:56:29.741+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T13:56:29.742+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:56:29.742+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T13:56:34.007+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T13:56:34.009+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T13:56:34.012+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T13:56:34.034+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:56:34.034+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T13:56:34.054+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:56:34.054+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T13:56:34.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.343 seconds
+[2023-08-27T14:25:06.103+0000] {processor.py:157} INFO - Started process (PID=82569) to work on /opt/airflow/dags/setup.py
+[2023-08-27T14:25:06.106+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T14:25:06.107+0000] {logging_mixin.py:149} INFO - [2023-08-27T14:25:06.107+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T14:25:10.489+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T14:25:10.495+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T14:25:10.497+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T14:25:10.522+0000] {logging_mixin.py:149} INFO - [2023-08-27T14:25:10.522+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T14:25:10.540+0000] {logging_mixin.py:149} INFO - [2023-08-27T14:25:10.540+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T14:25:10.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.456 seconds
+[2023-08-27T17:32:52.211+0000] {processor.py:157} INFO - Started process (PID=82635) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:32:52.213+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:32:52.214+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:32:52.214+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:32:56.627+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:32:56.637+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:32:56.640+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:32:56.668+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:32:56.668+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:32:56.685+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:32:56.685+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:32:56.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.493 seconds
+[2023-08-27T17:33:27.015+0000] {processor.py:157} INFO - Started process (PID=82700) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:33:27.016+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:33:27.017+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:33:27.017+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:33:30.339+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:33:30.343+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:33:30.346+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:33:30.370+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:33:30.370+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:33:30.398+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:33:30.398+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:33:30.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.402 seconds
+[2023-08-27T17:34:01.264+0000] {processor.py:157} INFO - Started process (PID=82773) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:34:01.265+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:34:01.266+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:01.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:34:04.521+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:34:04.528+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:34:04.531+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:34:04.560+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:04.560+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:34:04.578+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:04.578+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:34:04.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.330 seconds
+[2023-08-27T17:34:35.527+0000] {processor.py:157} INFO - Started process (PID=82839) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:34:35.529+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:34:35.530+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:35.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:34:38.821+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:34:38.826+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:34:38.829+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:34:38.853+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:38.853+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:34:38.874+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:38.874+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:34:38.892+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.370 seconds
+[2023-08-27T17:35:09.039+0000] {processor.py:157} INFO - Started process (PID=82905) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:35:09.040+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:35:09.041+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:09.041+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:35:12.642+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:35:12.646+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:35:12.650+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:35:12.692+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:12.692+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:35:12.726+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:12.726+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:35:12.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.713 seconds
+[2023-08-27T17:35:43.460+0000] {processor.py:157} INFO - Started process (PID=82972) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:35:43.467+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:35:43.469+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:43.469+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:35:47.905+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:35:47.910+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:35:47.913+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:35:47.935+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:47.935+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:35:47.952+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:47.952+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:35:47.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.506 seconds
+[2023-08-27T17:36:18.710+0000] {processor.py:157} INFO - Started process (PID=83038) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:36:18.711+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:36:18.712+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:18.712+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:36:22.152+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:36:22.156+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:36:22.159+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:36:22.182+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:22.182+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:36:22.204+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:22.204+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:36:22.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.532 seconds
+[2023-08-27T17:36:52.431+0000] {processor.py:157} INFO - Started process (PID=83104) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:36:52.433+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:36:52.434+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:52.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:36:55.702+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:36:55.712+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:36:55.714+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:36:55.743+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:55.743+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:36:55.758+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:55.758+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:36:55.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.347 seconds
+[2023-08-27T17:37:26.695+0000] {processor.py:157} INFO - Started process (PID=83170) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:37:26.711+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:37:26.712+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:37:26.712+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:37:30.025+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:37:30.032+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:37:30.036+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:37:30.060+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:37:30.060+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:37:30.079+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:37:30.079+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:37:30.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.401 seconds
+[2023-08-27T17:38:01.074+0000] {processor.py:157} INFO - Started process (PID=83236) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:38:01.075+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:38:01.076+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:01.076+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:38:04.455+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:38:04.459+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:38:04.461+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:38:04.485+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:04.484+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:38:04.502+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:04.502+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:38:04.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.443 seconds
+[2023-08-27T17:38:35.437+0000] {processor.py:157} INFO - Started process (PID=83309) to work on /opt/airflow/dags/setup.py
+[2023-08-27T17:38:35.438+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T17:38:35.440+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:35.439+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T17:38:38.653+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T17:38:38.656+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T17:38:38.658+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T17:38:38.689+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:38.689+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:38:38.710+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:38.710+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T17:38:38.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.289 seconds
+[2023-08-27T18:41:26.920+0000] {processor.py:157} INFO - Started process (PID=83368) to work on /opt/airflow/dags/setup.py
+[2023-08-27T18:41:26.937+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T18:41:26.958+0000] {logging_mixin.py:149} INFO - [2023-08-27T18:41:26.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T18:41:30.952+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T18:41:30.956+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T18:41:30.959+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T18:41:30.981+0000] {logging_mixin.py:149} INFO - [2023-08-27T18:41:30.981+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T18:41:30.998+0000] {logging_mixin.py:149} INFO - [2023-08-27T18:41:30.998+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T18:41:31.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.094 seconds
+[2023-08-27T19:17:10.939+0000] {processor.py:157} INFO - Started process (PID=83434) to work on /opt/airflow/dags/setup.py
+[2023-08-27T19:17:10.941+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T19:17:10.941+0000] {logging_mixin.py:149} INFO - [2023-08-27T19:17:10.941+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T19:17:16.191+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T19:17:16.195+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T19:17:16.197+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T19:17:16.219+0000] {logging_mixin.py:149} INFO - [2023-08-27T19:17:16.219+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T19:17:16.241+0000] {logging_mixin.py:149} INFO - [2023-08-27T19:17:16.240+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T19:17:16.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 5.324 seconds
+[2023-08-27T21:41:10.988+0000] {processor.py:157} INFO - Started process (PID=83500) to work on /opt/airflow/dags/setup.py
+[2023-08-27T21:41:10.990+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T21:41:10.991+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:41:10.991+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T21:41:16.550+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T21:41:16.557+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T21:41:16.564+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T21:41:16.597+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:41:16.597+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T21:41:16.613+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:41:16.613+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T21:41:16.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 5.638 seconds
+[2023-08-27T21:49:21.122+0000] {processor.py:157} INFO - Started process (PID=83567) to work on /opt/airflow/dags/setup.py
+[2023-08-27T21:49:21.125+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T21:49:21.126+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:49:21.126+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T21:49:25.944+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T21:49:25.948+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T21:49:25.951+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T21:49:25.974+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:49:25.974+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T21:49:25.990+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:49:25.990+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T21:49:26.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.882 seconds
+[2023-08-27T22:05:50.762+0000] {processor.py:157} INFO - Started process (PID=83633) to work on /opt/airflow/dags/setup.py
+[2023-08-27T22:05:50.763+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T22:05:50.764+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:05:50.764+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T22:05:55.197+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T22:05:55.201+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T22:05:55.204+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T22:05:55.245+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:05:55.245+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T22:05:55.278+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:05:55.277+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T22:05:55.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.537 seconds
+[2023-08-27T22:20:35.537+0000] {processor.py:157} INFO - Started process (PID=83699) to work on /opt/airflow/dags/setup.py
+[2023-08-27T22:20:35.540+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-08-27T22:20:35.543+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:20:35.543+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-08-27T22:20:39.478+0000] {logging_mixin.py:149} INFO - testttt
+[2023-08-27T22:20:39.481+0000] {logging_mixin.py:149} INFO - 
+/opt/airflow/plugins/spark-2.4.5-bin-hadoop2.7/bin/spark-submit --master {{ params.master }}   {{ params.base_path }}/{{ params.filename }}   {{ params.base_path }}
+[2023-08-27T22:20:39.483+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-08-27T22:20:39.517+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:20:39.517+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T22:20:39.531+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:20:39.531+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-08-27T22:20:39.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.012 seconds

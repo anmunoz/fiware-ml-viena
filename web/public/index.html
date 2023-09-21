@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FIWARE Purchase volume prediction</title>
+	<script src="jquery-1.10.1.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap.min.css"></link>
+	<link rel="stylesheet" href="basic.css"></link>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img id="logo" src="fi-ware_logo.png">
+		<br/>
+		<br/>
+		<h1>Predict the number of people in the supermarket queue</h1>
+		<br/>
+		<br/>
+		<div class="row">
+	      <div class="col-6">
+      		<u><h2>Current status</h2></u>
+			<br/>
+		  	<h1 class="simulationResult" id="currentStatus"></h1>	
+	      </div>
+	      <div class="col-6">
+			<u><h2>Status in two hours</h2></u>
+			<br/>
+			<h1 class="simulationResult" id="forecastStatus"></h1>
+	      </div>
+      	</div>
+		<br/>
+		<br/>
+		<div class="row">
+			<div class="col-12">
+				<div>
+					<h2 class="simulationResult" id="dateTime">-</h2>
+				</div>	
+			</div>
+			</div>
+	</div>
+	<br/><br/>
+	<script src="/predict.js"></script>
+</body>
+
+</html>

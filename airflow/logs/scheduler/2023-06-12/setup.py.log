@@ -1,0 +1,263 @@
+[2023-06-12T15:57:12.676+0000] {processor.py:157} INFO - Started process (PID=3223) to work on /opt/airflow/dags/setup.py
+[2023-06-12T15:57:12.680+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T15:57:12.681+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:57:12.681+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T15:57:12.710+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:57:12.709+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T15:57:12.711+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T15:57:12.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.057 seconds
+[2023-06-12T15:57:42.959+0000] {processor.py:157} INFO - Started process (PID=3277) to work on /opt/airflow/dags/setup.py
+[2023-06-12T15:57:42.962+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T15:57:42.963+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:57:42.963+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T15:57:42.975+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:57:42.970+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T15:57:42.976+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T15:57:43.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.050 seconds
+[2023-06-12T15:58:03.267+0000] {processor.py:157} INFO - Started process (PID=3297) to work on /opt/airflow/dags/setup.py
+[2023-06-12T15:58:03.270+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T15:58:03.271+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:58:03.271+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T15:58:03.300+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:58:03.297+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T15:58:03.300+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T15:58:03.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.060 seconds
+[2023-06-12T15:58:33.490+0000] {processor.py:157} INFO - Started process (PID=3351) to work on /opt/airflow/dags/setup.py
+[2023-06-12T15:58:33.493+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T15:58:33.494+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:58:33.494+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T15:58:33.505+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:58:33.503+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T15:58:33.506+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T15:58:33.527+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.043 seconds
+[2023-06-12T15:59:03.679+0000] {processor.py:157} INFO - Started process (PID=3406) to work on /opt/airflow/dags/setup.py
+[2023-06-12T15:59:03.682+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T15:59:03.683+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:59:03.683+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T15:59:03.693+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:59:03.691+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T15:59:03.694+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T15:59:03.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.045 seconds
+[2023-06-12T15:59:33.866+0000] {processor.py:157} INFO - Started process (PID=3460) to work on /opt/airflow/dags/setup.py
+[2023-06-12T15:59:33.868+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T15:59:33.870+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:59:33.869+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T15:59:33.878+0000] {logging_mixin.py:149} INFO - [2023-06-12T15:59:33.876+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T15:59:33.878+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T15:59:33.900+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.038 seconds
+[2023-06-12T16:00:04.141+0000] {processor.py:157} INFO - Started process (PID=3515) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:00:04.145+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:00:04.146+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:04.146+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:00:04.157+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:04.154+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    import iso8601
+ModuleNotFoundError: No module named 'iso8601'
+[2023-06-12T16:00:04.159+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:00:04.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.048 seconds
+[2023-06-12T16:00:24.019+0000] {processor.py:157} INFO - Started process (PID=3570) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:00:24.020+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:00:24.021+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:24.021+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:00:24.027+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:24.026+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    install(iso8601)
+NameError: name 'iso8601' is not defined
+[2023-06-12T16:00:24.027+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:00:24.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.029 seconds
+[2023-06-12T16:00:54.259+0000] {processor.py:157} INFO - Started process (PID=3625) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:00:54.262+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:00:54.263+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:54.263+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:00:54.270+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:54.269+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/setup.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/setup.py", line 7, in <module>
+    install(iso8601)
+NameError: name 'iso8601' is not defined
+[2023-06-12T16:00:54.271+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:00:54.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 0.038 seconds
+[2023-06-12T16:00:59.287+0000] {processor.py:157} INFO - Started process (PID=3626) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:00:59.288+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:00:59.289+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:00:59.289+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:01:03.172+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:01:03.290+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:03.290+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:agile_data_science_batch_prediction_model_training
+[2023-06-12T16:01:03.297+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:03.297+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:agile_data_science_batch_prediction_model_training
+[2023-06-12T16:01:03.303+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:03.302+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:agile_data_science_batch_prediction_model_training
+[2023-06-12T16:01:03.303+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:03.303+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:01:03.312+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:03.312+0000] {dag.py:2747} INFO - Creating ORM DAG for agile_data_science_batch_prediction_model_training
+[2023-06-12T16:01:03.320+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:03.319+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:01:03.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.050 seconds
+[2023-06-12T16:01:34.089+0000] {processor.py:157} INFO - Started process (PID=3686) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:01:34.091+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:01:34.092+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:34.092+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:01:37.112+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:01:37.132+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:37.132+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:01:37.147+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:37.147+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:01:37.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.075 seconds
+[2023-06-12T16:01:38.146+0000] {processor.py:157} INFO - Started process (PID=3698) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:01:38.149+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:01:38.150+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:38.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:01:41.232+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:01:41.253+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:41.253+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:01:41.267+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:01:41.267+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:01:41.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.139 seconds
+[2023-06-12T16:02:11.474+0000] {processor.py:157} INFO - Started process (PID=3758) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:02:11.476+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:02:11.477+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:02:11.476+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:02:14.996+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:02:15.041+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:02:15.041+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:02:15.062+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:02:15.062+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:02:15.075+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.607 seconds
+[2023-06-12T16:02:45.974+0000] {processor.py:157} INFO - Started process (PID=3820) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:02:45.976+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:02:45.977+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:02:45.977+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:02:49.695+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:02:49.719+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:02:49.719+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:02:49.736+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:02:49.736+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:02:49.747+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.776 seconds
+[2023-06-12T16:04:31.675+0000] {processor.py:157} INFO - Started process (PID=3878) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:04:31.678+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:04:31.679+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:04:31.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:04:35.684+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:04:35.707+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:04:35.707+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:04:35.732+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:04:35.731+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:04:35.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.079 seconds
+[2023-06-12T16:09:31.268+0000] {processor.py:157} INFO - Started process (PID=3938) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:09:31.274+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:09:31.276+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:09:31.276+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:09:37.952+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:09:37.978+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:09:37.978+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:09:37.996+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:09:37.996+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:09:38.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 6.754 seconds
+[2023-06-12T16:11:14.139+0000] {processor.py:157} INFO - Started process (PID=3998) to work on /opt/airflow/dags/setup.py
+[2023-06-12T16:11:14.142+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T16:11:14.144+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:11:14.144+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T16:11:17.740+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T16:11:17.763+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:11:17.763+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T16:11:17.781+0000] {logging_mixin.py:149} INFO - [2023-06-12T16:11:17.781+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T16:11:17.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.660 seconds
+[2023-06-12T17:10:55.074+0000] {processor.py:157} INFO - Started process (PID=4057) to work on /opt/airflow/dags/setup.py
+[2023-06-12T17:10:55.076+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T17:10:55.079+0000] {logging_mixin.py:149} INFO - [2023-06-12T17:10:55.078+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T17:11:02.302+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T17:11:02.331+0000] {logging_mixin.py:149} INFO - [2023-06-12T17:11:02.331+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T17:11:02.350+0000] {logging_mixin.py:149} INFO - [2023-06-12T17:11:02.350+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T17:11:02.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 7.291 seconds
+[2023-06-12T18:19:08.994+0000] {processor.py:157} INFO - Started process (PID=4117) to work on /opt/airflow/dags/setup.py
+[2023-06-12T18:19:09.005+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T18:19:09.024+0000] {logging_mixin.py:149} INFO - [2023-06-12T18:19:09.024+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T18:19:15.508+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T18:19:15.545+0000] {logging_mixin.py:149} INFO - [2023-06-12T18:19:15.545+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T18:19:15.571+0000] {logging_mixin.py:149} INFO - [2023-06-12T18:19:15.571+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T18:19:15.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 6.598 seconds
+[2023-06-12T21:12:42.786+0000] {processor.py:157} INFO - Started process (PID=4177) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:12:42.790+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:12:42.791+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:12:42.791+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:12:46.792+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:12:46.815+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:12:46.815+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:12:46.832+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:12:46.832+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:12:46.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.061 seconds
+[2023-06-12T21:15:14.239+0000] {processor.py:157} INFO - Started process (PID=4237) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:15:14.242+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:15:14.243+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:15:14.243+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:15:18.452+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:15:18.476+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:15:18.476+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:15:18.491+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:15:18.491+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:15:18.504+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.276 seconds
+[2023-06-12T21:16:10.675+0000] {processor.py:157} INFO - Started process (PID=4298) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:16:10.676+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:16:10.677+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:16:10.677+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:16:14.626+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:16:14.652+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:16:14.651+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:16:14.669+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:16:14.669+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:16:14.682+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.010 seconds
+[2023-06-12T21:17:17.545+0000] {processor.py:157} INFO - Started process (PID=4358) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:17:17.548+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:17:17.551+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:17:17.551+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:17:22.176+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:17:22.197+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:17:22.197+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:17:22.213+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:17:22.213+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:17:22.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.696 seconds
+[2023-06-12T21:18:39.947+0000] {processor.py:157} INFO - Started process (PID=4418) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:18:39.949+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:18:39.952+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:18:39.952+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:18:45.099+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:18:45.120+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:18:45.119+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:18:45.136+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:18:45.136+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:18:45.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 5.207 seconds
+[2023-06-12T21:19:59.576+0000] {processor.py:157} INFO - Started process (PID=4478) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:19:59.578+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:19:59.579+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:19:59.579+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:20:05.233+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:20:05.258+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:20:05.257+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:20:05.273+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:20:05.273+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:20:05.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 5.714 seconds
+[2023-06-12T21:20:56.811+0000] {processor.py:157} INFO - Started process (PID=4537) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:20:56.814+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:20:56.815+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:20:56.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:21:00.987+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:21:01.015+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:21:01.014+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:21:01.047+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:21:01.047+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:21:01.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.252 seconds
+[2023-06-12T21:21:43.915+0000] {processor.py:157} INFO - Started process (PID=4597) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:21:43.917+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:21:43.918+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:21:43.918+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:21:48.071+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:21:48.101+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:21:48.101+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:21:48.123+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:21:48.122+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:21:48.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 4.224 seconds
+[2023-06-12T21:24:04.575+0000] {processor.py:157} INFO - Started process (PID=4657) to work on /opt/airflow/dags/setup.py
+[2023-06-12T21:24:04.579+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/setup.py for tasks to queue
+[2023-06-12T21:24:04.580+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:24:04.580+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/setup.py
+[2023-06-12T21:24:08.265+0000] {processor.py:836} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /opt/airflow/dags/setup.py
+[2023-06-12T21:24:08.290+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:24:08.290+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T21:24:08.307+0000] {logging_mixin.py:149} INFO - [2023-06-12T21:24:08.307+0000] {dag.py:3490} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None, run_after=None
+[2023-06-12T21:24:08.339+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/setup.py took 3.766 seconds

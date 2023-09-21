@@ -1,0 +1,24 @@
+[2023-06-14T21:24:59.958+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model manual__2023-06-14T21:24:54.781024+00:00 [queued]>
+[2023-06-14T21:24:59.966+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model manual__2023-06-14T21:24:54.781024+00:00 [queued]>
+[2023-06-14T21:24:59.969+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 4
+[2023-06-14T21:24:59.990+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): pyspark_train_classifier_model> on 2023-06-14 21:24:54.781024+00:00
+[2023-06-14T21:24:59.998+0000] {standard_task_runner.py:57} INFO - Started process 344 to run task
+[2023-06-14T21:25:00.002+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', 'manual__2023-06-14T21:24:54.781024+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/setup.py', '--cfg-path', '/tmp/tmp1hkucvl2']
+[2023-06-14T21:25:00.005+0000] {standard_task_runner.py:85} INFO - Job 21: Subtask pyspark_train_classifier_model
+[2023-06-14T21:25:00.086+0000] {task_command.py:410} INFO - Running <TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model manual__2023-06-14T21:24:54.781024+00:00 [running]> on host 6426fae5ea9e
+[2023-06-14T21:25:00.169+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='agile_data_science_batch_prediction_model_training' AIRFLOW_CTX_TASK_ID='pyspark_train_classifier_model' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T21:24:54.781024+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-14T21:24:54.781024+00:00'
+[2023-06-14T21:25:00.171+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-14T21:25:00.172+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\nspark-submit --master spark://spark-master:7077   //resources/train_spark_mllib_model.py   /']
+[2023-06-14T21:25:00.187+0000] {subprocess.py:86} INFO - Output:
+[2023-06-14T21:25:00.189+0000] {subprocess.py:93} INFO - /bin/bash: line 2: spark-submit: command not found
+[2023-06-14T21:25:00.190+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-06-14T21:25:00.204+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-06-14T21:25:00.207+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=agile_data_science_batch_prediction_model_training, task_id=pyspark_train_classifier_model, execution_date=20230614T212454, start_date=20230614T212459, end_date=20230614T212500
+[2023-06-14T21:25:00.219+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 21 for task pyspark_train_classifier_model (Bash command failed. The command returned a non-zero exit code 127.; 344)
+[2023-06-14T21:25:00.259+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-14T21:25:00.278+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

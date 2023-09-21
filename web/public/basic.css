@@ -1,0 +1,59 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+    color: #333;
+    --mainpurple: #232951;
+    --darkerpurple: #161938;
+    --textpurple: #656683;
+    --bckg: #2A2A52;
+    --brightgreen: #48C18E;
+    --brightyellow: #FAC855;
+    --brightblue: #36A2EB;
+    --brightorange: #F3945E;
+    --blue: #7FC4D1;
+    --lightred: #F47E84;
+    --textgrey: #a1a3af;
+    --purpleedit: #9091A6;
+    --primary: #183168;
+}
+
+.simulationResult {
+    color: var(--primary)
+}
+
+#logo {
+	width: 250px;
+}
+
+.btn-primary {
+	background: var(--blue);
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.btn-primary:hover, .btn-primary:active:hover, .btn-primary:focus {
+    background: var(--blue);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.container {
+    text-align: center;
+    color: var(--brightblue)
+}
+
+
+
+
+.prediction-value {
+    font-weight: 900;
+}
+
+
+
+.btn-link {
+    color: var(--blue);
+}
+
+.highlightElement {
+    background-color: var(--brightyellow);
+}

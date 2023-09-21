@@ -1,0 +1,182 @@
+[2023-08-27T00:38:27.012+0000] {processor.py:157} INFO - Started process (PID=82039) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T00:38:27.013+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T00:38:27.014+0000] {logging_mixin.py:149} INFO - [2023-08-27T00:38:27.014+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T00:38:31.654+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T00:38:31.688+0000] {logging_mixin.py:149} INFO - [2023-08-27T00:38:31.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T00:38:31.725+0000] {logging_mixin.py:149} INFO - [2023-08-27T00:38:31.725+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T00:38:31.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.734 seconds
+[2023-08-27T02:09:31.031+0000] {processor.py:157} INFO - Started process (PID=82105) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T02:09:31.033+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T02:09:31.034+0000] {logging_mixin.py:149} INFO - [2023-08-27T02:09:31.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T02:09:35.962+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T02:09:35.985+0000] {logging_mixin.py:149} INFO - [2023-08-27T02:09:35.984+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T02:09:35.999+0000] {logging_mixin.py:149} INFO - [2023-08-27T02:09:35.999+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T02:09:36.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.991 seconds
+[2023-08-27T04:15:50.817+0000] {processor.py:157} INFO - Started process (PID=82172) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T04:15:50.821+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T04:15:50.822+0000] {logging_mixin.py:149} INFO - [2023-08-27T04:15:50.822+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T04:15:54.975+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T04:15:55.001+0000] {logging_mixin.py:149} INFO - [2023-08-27T04:15:55.001+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T04:15:55.020+0000] {logging_mixin.py:149} INFO - [2023-08-27T04:15:55.020+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T04:15:55.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.216 seconds
+[2023-08-27T05:17:51.556+0000] {processor.py:157} INFO - Started process (PID=82238) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T05:17:51.557+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T05:17:51.558+0000] {logging_mixin.py:149} INFO - [2023-08-27T05:17:51.558+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T05:17:55.917+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T05:17:55.944+0000] {logging_mixin.py:149} INFO - [2023-08-27T05:17:55.944+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T05:17:55.963+0000] {logging_mixin.py:149} INFO - [2023-08-27T05:17:55.963+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T05:17:55.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.422 seconds
+[2023-08-27T06:52:15.243+0000] {processor.py:157} INFO - Started process (PID=82305) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T06:52:15.245+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T06:52:15.246+0000] {logging_mixin.py:149} INFO - [2023-08-27T06:52:15.246+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T06:52:19.260+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T06:52:19.286+0000] {logging_mixin.py:149} INFO - [2023-08-27T06:52:19.286+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T06:52:19.302+0000] {logging_mixin.py:149} INFO - [2023-08-27T06:52:19.302+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T06:52:19.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.075 seconds
+[2023-08-27T11:05:20.236+0000] {processor.py:157} INFO - Started process (PID=82371) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T11:05:20.237+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T11:05:20.238+0000] {logging_mixin.py:149} INFO - [2023-08-27T11:05:20.238+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T11:05:24.284+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T11:05:24.335+0000] {logging_mixin.py:149} INFO - [2023-08-27T11:05:24.335+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T11:05:24.354+0000] {logging_mixin.py:149} INFO - [2023-08-27T11:05:24.353+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T11:05:24.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.140 seconds
+[2023-08-27T13:53:16.825+0000] {processor.py:157} INFO - Started process (PID=82437) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T13:53:16.828+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T13:53:16.829+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:53:16.829+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T13:53:20.629+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T13:53:20.657+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:53:20.657+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T13:53:20.671+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:53:20.671+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T13:53:20.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.860 seconds
+[2023-08-27T13:56:29.729+0000] {processor.py:157} INFO - Started process (PID=82503) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T13:56:29.731+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T13:56:29.732+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:56:29.732+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T13:56:33.998+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T13:56:34.025+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:56:34.025+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T13:56:34.047+0000] {logging_mixin.py:149} INFO - [2023-08-27T13:56:34.047+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T13:56:34.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.338 seconds
+[2023-08-27T14:25:06.070+0000] {processor.py:157} INFO - Started process (PID=82568) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T14:25:06.071+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T14:25:06.072+0000] {logging_mixin.py:149} INFO - [2023-08-27T14:25:06.072+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T14:25:10.611+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T14:25:10.634+0000] {logging_mixin.py:149} INFO - [2023-08-27T14:25:10.634+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T14:25:10.650+0000] {logging_mixin.py:149} INFO - [2023-08-27T14:25:10.650+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T14:25:10.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.601 seconds
+[2023-08-27T17:32:52.197+0000] {processor.py:157} INFO - Started process (PID=82634) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:32:52.202+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:32:52.203+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:32:52.203+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:32:56.662+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:32:56.688+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:32:56.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:32:56.707+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:32:56.707+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:32:56.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.528 seconds
+[2023-08-27T17:33:27.003+0000] {processor.py:157} INFO - Started process (PID=82699) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:33:27.006+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:33:27.008+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:33:27.008+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:33:30.251+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:33:30.280+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:33:30.280+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:33:30.299+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:33:30.299+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:33:30.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.316 seconds
+[2023-08-27T17:34:01.232+0000] {processor.py:157} INFO - Started process (PID=82772) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:34:01.238+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:34:01.240+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:01.239+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:34:04.577+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:34:04.604+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:04.604+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:34:04.620+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:04.620+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:34:04.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.406 seconds
+[2023-08-27T17:34:35.524+0000] {processor.py:157} INFO - Started process (PID=82838) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:34:35.526+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:34:35.527+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:35.527+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:34:38.735+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:34:38.764+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:38.764+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:34:38.782+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:34:38.782+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:34:38.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.278 seconds
+[2023-08-27T17:35:09.015+0000] {processor.py:157} INFO - Started process (PID=82904) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:35:09.016+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:35:09.017+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:09.017+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:35:12.649+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:35:12.696+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:12.695+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:35:12.727+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:12.727+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:35:12.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.738 seconds
+[2023-08-27T17:35:43.454+0000] {processor.py:157} INFO - Started process (PID=82971) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:35:43.457+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:35:43.460+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:43.460+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:35:47.921+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:35:47.943+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:47.943+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:35:47.957+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:35:47.957+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:35:47.970+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.522 seconds
+[2023-08-27T17:36:18.696+0000] {processor.py:157} INFO - Started process (PID=83037) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:36:18.699+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:36:18.700+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:18.700+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:36:22.134+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:36:22.163+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:22.163+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:36:22.185+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:22.185+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:36:22.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.511 seconds
+[2023-08-27T17:36:52.415+0000] {processor.py:157} INFO - Started process (PID=83103) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:36:52.419+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:36:52.421+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:52.420+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:36:55.739+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:36:55.762+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:55.762+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:36:55.780+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:36:55.780+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:36:55.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.383 seconds
+[2023-08-27T17:37:26.682+0000] {processor.py:157} INFO - Started process (PID=83169) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:37:26.685+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:37:26.687+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:37:26.687+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:37:30.036+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:37:30.062+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:37:30.062+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:37:30.079+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:37:30.079+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:37:30.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.417 seconds
+[2023-08-27T17:38:01.063+0000] {processor.py:157} INFO - Started process (PID=83235) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:38:01.066+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:38:01.067+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:01.067+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:38:04.433+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:38:04.461+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:04.461+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:38:04.479+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:04.479+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:38:04.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.440 seconds
+[2023-08-27T17:38:35.424+0000] {processor.py:157} INFO - Started process (PID=83308) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T17:38:35.426+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T17:38:35.428+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:35.428+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T17:38:38.624+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T17:38:38.650+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:38.650+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T17:38:38.667+0000] {logging_mixin.py:149} INFO - [2023-08-27T17:38:38.667+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T17:38:38.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.263 seconds
+[2023-08-27T18:41:26.823+0000] {processor.py:157} INFO - Started process (PID=83367) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T18:41:26.835+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T18:41:26.844+0000] {logging_mixin.py:149} INFO - [2023-08-27T18:41:26.844+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T18:41:31.142+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T18:41:31.171+0000] {logging_mixin.py:149} INFO - [2023-08-27T18:41:31.170+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T18:41:31.188+0000] {logging_mixin.py:149} INFO - [2023-08-27T18:41:31.188+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T18:41:31.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.394 seconds
+[2023-08-27T19:17:10.907+0000] {processor.py:157} INFO - Started process (PID=83433) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T19:17:10.908+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T19:17:10.909+0000] {logging_mixin.py:149} INFO - [2023-08-27T19:17:10.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T19:17:16.152+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T19:17:16.178+0000] {logging_mixin.py:149} INFO - [2023-08-27T19:17:16.178+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T19:17:16.196+0000] {logging_mixin.py:149} INFO - [2023-08-27T19:17:16.196+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T19:17:16.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 5.302 seconds
+[2023-08-27T21:41:10.984+0000] {processor.py:157} INFO - Started process (PID=83499) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T21:41:10.987+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T21:41:10.988+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:41:10.988+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T21:41:16.374+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T21:41:16.399+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:41:16.399+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T21:41:16.416+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:41:16.416+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T21:41:16.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 5.448 seconds
+[2023-08-27T21:49:21.113+0000] {processor.py:157} INFO - Started process (PID=83566) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T21:49:21.115+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T21:49:21.116+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:49:21.115+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T21:49:25.957+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T21:49:25.980+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:49:25.980+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T21:49:25.994+0000] {logging_mixin.py:149} INFO - [2023-08-27T21:49:25.994+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T21:49:26.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.904 seconds
+[2023-08-27T22:05:50.737+0000] {processor.py:157} INFO - Started process (PID=83632) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T22:05:50.738+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T22:05:50.739+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:05:50.739+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T22:05:55.318+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T22:05:55.347+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:05:55.347+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T22:05:55.370+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:05:55.370+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T22:05:55.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 4.649 seconds
+[2023-08-27T22:20:35.504+0000] {processor.py:157} INFO - Started process (PID=83698) to work on /opt/airflow/dags/deploy.py
+[2023-08-27T22:20:35.506+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/deploy.py for tasks to queue
+[2023-08-27T22:20:35.507+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:20:35.507+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/deploy.py
+[2023-08-27T22:20:39.419+0000] {processor.py:836} INFO - DAG(s) dict_keys(['deploy_prediction_model']) retrieved from /opt/airflow/dags/deploy.py
+[2023-08-27T22:20:39.445+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:20:39.445+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-08-27T22:20:39.463+0000] {logging_mixin.py:149} INFO - [2023-08-27T22:20:39.463+0000] {dag.py:3490} INFO - Setting next_dagrun for deploy_prediction_model to None, run_after=None
+[2023-08-27T22:20:39.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/deploy.py took 3.974 seconds
